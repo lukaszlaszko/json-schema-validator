@@ -28,7 +28,7 @@ set_target_properties(nlohmann_json_schema_validator
                       PROPERTIES
                           VERSION ${PROJECT_VERSION}
                           SOVERSION 1
-                          POSITION_INDEPENDENT_CODE ${CMAKE_POSITION_INDEPENDENT_CODE})
+                          POSITION_INDEPENDENT_CODE ON)
 
 # here we decice how nlohmann::json is found and used to build this project
 
