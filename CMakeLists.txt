@@ -11,7 +11,7 @@ endif()
 project(nlohmann_json_schema_validator
         LANGUAGES CXX)
 
-set(PROJECT_VERSION 2.1.1)
+set(PROJECT_VERSION 2.1.2)
 
 cmake_minimum_required(VERSION 3.2)
 
