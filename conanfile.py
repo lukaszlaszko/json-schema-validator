@@ -39,7 +39,7 @@ class JsonSchemaValidatorConan(ConanFile):
     ]
 
     requires = (
-        'nlohmann_json/[>=3.7.0 <3.8.0]'
+        'nlohmann_json/3.8.0'
     )
 
     def build(self):
