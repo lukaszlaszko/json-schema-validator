@@ -50,10 +50,10 @@ if(JSON_SCHEMA_TEST_SUITE_PATH)
         # some optional tests will fail
         set_tests_properties(
             JSON-Suite::Optional::bignum
-            JSON-Suite::Optional::content
             JSON-Suite::Optional::zeroTerminatedFloats
-            JSON-Suite::Optional::ecmascript-regex
+            JSON-Suite::Optional::non-bmp-regex
 
+            JSON-Suite::Optional::Format::ecmascript-regex
             JSON-Suite::Optional::Format::idn-email
             JSON-Suite::Optional::Format::idn-hostname
             JSON-Suite::Optional::Format::iri-reference
