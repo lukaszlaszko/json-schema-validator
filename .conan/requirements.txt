@@ -1,2 +1,2 @@
-conan-package-tools==0.29.2
+conan-package-tools
 python-dotenv==0.10.3
